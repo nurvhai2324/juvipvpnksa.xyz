@@ -6,7 +6,7 @@ PASS='appsname_juvipvpnk';
 DBNAME='appsname_juvipvpnk';
 PORT_TCP='5666';
 PORT_UDP='5666';
-SUB_DOMAIN=labi.cardvpn.live
+SUB_DOMAIN=k1nd.cardvpn.live
 MYIP=$(wget -qO- icanhazip.com);
 server_ip=$(curl -s https://api.ipify.org)
 timedatectl set-timezone Asia/Riyadh
